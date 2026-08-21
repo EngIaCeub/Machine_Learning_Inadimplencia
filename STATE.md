@@ -18,7 +18,7 @@ status:
 - Rounds 1-4 development freeze = DONE
 - Final academic delivery = READY
 - Final Colab notebook = READY; repository published on GitHub
-- Colab link provided: https://colab.research.google.com/drive/1_Jgx1HXY3wPmAU8GJB8B347WKp0kumSV?usp=sharing
+- Colab link provided: https://colab.research.google.com/github/EngIaCeub/Machine_Learning_Inadimplencia/blob/main/notebooks/FINAL_COLAB_REPRODUCIBLE.ipynb
 
 test:
 - CLOSED

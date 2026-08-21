@@ -23,7 +23,7 @@
 
 ## Dependencies
 
-The notebook installs `requirements.txt` and pins `catboost==1.2.10` for the final model. It uses the official UCI loader, pandas, NumPy, scikit-learn, matplotlib, and CatBoost. GPU is not required.
+The notebook installs `requirements.txt`, installs the repository in editable mode with `pip install -e .`, and pins `catboost==1.2.10` for the final model. The editable install makes `credit_default` resolvable by the Colab analyzer as well as by the runtime. It uses the official UCI loader, pandas, NumPy, scikit-learn, matplotlib, and CatBoost. GPU is not required.
 
 ## Reproducibility notes
 

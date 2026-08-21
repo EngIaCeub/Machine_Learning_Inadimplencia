@@ -326,6 +326,10 @@ def main() -> None:
         'if REPO_URL == \\\"https://github.com/EngIaCeub/Machine_Learning_Inadimplencia.git\\\":',
         'if False:',
     )
+    serialized = serialized.replace(
+        '%pip install -q -r requirements.txt catboost==1.2.10\\n',
+        '%pip install -q -r requirements.txt catboost==1.2.10\\n%pip install -q -e .\\n',
+    )
     NOTEBOOK_PATH.write_text(serialized, encoding="utf-8")
     print(f"Wrote {NOTEBOOK_PATH}")
 

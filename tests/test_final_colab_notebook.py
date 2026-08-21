@@ -31,6 +31,7 @@ def test_final_colab_notebook_is_valid_and_linear():
     assert all(section in full_text for section in required_sections)
     assert "https://github.com/EngIaCeub/Machine_Learning_Inadimplencia.git" in full_text
     assert "TODO_REPOSITORY_URL" not in full_text
+    assert "%pip install -q -e ." in full_text
     assert not any(
         value in full_text
         for value in ("C:\\Users\\", "C:/Users/", "OneDrive", "Área de Trabalho", "API_KEY", "PASSWORD")

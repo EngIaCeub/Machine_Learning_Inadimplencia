@@ -17,7 +17,7 @@ status:
 - Final TEST = A1_FINAL_TEST_GATES_REACHED
 - Rounds 1-4 development freeze = DONE
 - Final academic delivery = READY
-- Final Colab notebook = READY; public repository URL pending publication
+- Final Colab notebook = READY; repository published on GitHub
 - Colab link provided: https://colab.research.google.com/drive/1_Jgx1HXY3wPmAU8GJB8B347WKp0kumSV
 
 test:

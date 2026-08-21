@@ -8,6 +8,8 @@ The project contains the approved data pipeline, validation-only development evi
 
 `FINAL_ACADEMIC_DELIVERY_READY`
 
+Repository: [EngIaCeub/Machine_Learning_Inadimplencia](https://github.com/EngIaCeub/Machine_Learning_Inadimplencia)
+
 Final model: `CatBoostClassifier`, feature set A3 (`ROUND1 + BILL + PAYMENT`), threshold `0.247743`.
 
 Final TEST gates: ROC-AUC `0.7865` PASS, Recall `0.6104` PASS, Macro F1 `0.7019` PASS (`3/3`). `default=1` is the positive class. Binary F1 remains a diagnostic at approximately `0.55` and is not the official A1 gate.

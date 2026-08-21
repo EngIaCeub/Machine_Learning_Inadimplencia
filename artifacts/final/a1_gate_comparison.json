@@ -1,0 +1,9 @@
+{
+  "old_interpretation": "binary_f1",
+  "new_interpretation": "macro_f1",
+  "previous_gate_status": false,
+  "corrected_gate_status": true,
+  "models_retrained": false,
+  "thresholds_reoptimized": false,
+  "test_access": "none"
+}

@@ -1,0 +1,15 @@
+# Architecture-stage dependency set.
+# Pin exact versions into requirements.lock.txt after the first fully green Colab run.
+ucimlrepo
+pandas
+numpy
+scikit-learn
+matplotlib
+shap
+faker
+joblib
+xgboost
+catboost
+pytest
+ruff
+nbformat

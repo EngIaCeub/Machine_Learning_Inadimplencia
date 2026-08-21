@@ -1,0 +1,85 @@
+{
+  "development_validation": {
+    "roc_auc": 0.7811007964214797,
+    "average_precision": null,
+    "precision": 0.503765690376569,
+    "recall": 0.6050251256281407,
+    "f1_binary": 0.5497716894977169,
+    "f1_macro": 0.7024923058354957,
+    "f1_weighted": 0.7876764718372347,
+    "threshold": 0.247743,
+    "tp": 602,
+    "fp": 593,
+    "tn": 2912,
+    "fn": 393
+  },
+  "final_test": {
+    "threshold": 0.247743,
+    "roc_auc": 0.7865276746254424,
+    "precision_positive": 0.500823723228995,
+    "recall_positive": 0.6104417670682731,
+    "f1_binary": 0.5502262443438914,
+    "f1_binary_default_1": 0.5502262443438914,
+    "f1_class_0": 0.8536082474226804,
+    "f1_macro": 0.7019172458832859,
+    "f1_weighted": 0.7864596974079084,
+    "micro_f1": 0.7791111111111111,
+    "official_a1_f1": 0.7019172458832859,
+    "official_f1_metric": "f1_macro",
+    "accuracy": 0.7791111111111111,
+    "specificity": 0.827054794520548,
+    "balanced_accuracy": 0.7187482807944106,
+    "target_positive_prevalence": 0.22133333333333333,
+    "predicted_positive_prevalence": 0.2697777777777778,
+    "tn": 2898,
+    "fp": 606,
+    "fn": 388,
+    "tp": 608,
+    "average_precision": 0.5638850527862957,
+    "feature_order_hash": "89eba4dabedc8b9ece83b28451fe7b100ca154c50c8b6dcc15e4377876462569",
+    "split_sizes": {
+      "train_rows": 21000,
+      "validation_rows": 4500,
+      "test_rows": 4500
+    }
+  },
+  "generalization_delta": [
+    {
+      "metric": "AUC",
+      "validation": 0.7811007964214797,
+      "test": 0.7865276746254424,
+      "delta_test_minus_validation": 0.005426878203962704
+    },
+    {
+      "metric": "Precision",
+      "validation": 0.503765690376569,
+      "test": 0.500823723228995,
+      "delta_test_minus_validation": -0.0029419671475739984
+    },
+    {
+      "metric": "Recall",
+      "validation": 0.6050251256281407,
+      "test": 0.6104417670682731,
+      "delta_test_minus_validation": 0.00541664144013243
+    },
+    {
+      "metric": "Binary F1",
+      "validation": 0.5497716894977169,
+      "test": 0.5502262443438914,
+      "delta_test_minus_validation": 0.00045455484617451525
+    },
+    {
+      "metric": "Macro F1",
+      "validation": 0.7024923058354957,
+      "test": 0.7019172458832859,
+      "delta_test_minus_validation": -0.0005750599522098554
+    },
+    {
+      "metric": "Weighted F1",
+      "validation": 0.7876764718372347,
+      "test": 0.7864596974079084,
+      "delta_test_minus_validation": -0.0012167744293262173
+    }
+  ],
+  "post_test_tuning": false
+}

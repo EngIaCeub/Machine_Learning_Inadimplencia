@@ -1,0 +1,4 @@
+# GENERATED LATER — DO NOT HAND-PIN DURING ARCHITECTURE PHASE.
+#
+# S06 requires this file to be replaced with the exact package versions from
+# the first fully successful fresh-environment Colab execution.

@@ -1,0 +1,11 @@
+{
+  "status": "A1_FINAL_TEST_GATES_REACHED",
+  "gates": {
+    "auc_075": true,
+    "recall_060": true,
+    "macro_f1_065": true
+  },
+  "overall_pass": true,
+  "test_access_count": 2,
+  "deterministic_recovery": true
+}

@@ -1,0 +1,9 @@
+{
+  "final_test_access_count": 2,
+  "recovery_count": 1,
+  "recovery_reason": "deterministic evaluator missing micro_f1",
+  "model": "CatBoostClassifier",
+  "feature_set": "A3",
+  "threshold": 0.247743,
+  "test_access_started": true
+}

@@ -1,0 +1,24 @@
+{
+  "methodology_version": "A1_MACRO_F1",
+  "official_metrics": {
+    "roc_auc": 0.7811007964214797,
+    "recall_default_1": 0.6050251256281407,
+    "macro_f1": 0.7024923058354957
+  },
+  "diagnostic_metrics": {
+    "precision_default_1": 0.503765690376569,
+    "binary_f1_default_1": 0.5497716894977169,
+    "f1_class_0": 0.8552129221732746,
+    "weighted_f1": 0.7876764718372347,
+    "AP": null,
+    "accuracy": 0.7808888888888889
+  },
+  "a1_gates": {
+    "auc": true,
+    "recall_default_1": true,
+    "macro_f1": true
+  },
+  "all_a1_gates_pass": true,
+  "historical_binary_f1_plateau": 0.5497716894977169,
+  "test_access": "none"
+}

@@ -1,0 +1,129 @@
+{
+  "status": "ROUND4_FINAL_PLATEAU",
+  "model": "CatBoostClassifier",
+  "feature_set": "A3",
+  "sampling": "none",
+  "positive_class": {
+    "name": "default payment",
+    "value": 1
+  },
+  "metrics": {
+    "roc_auc": 0.7811007964214797,
+    "average_precision": null,
+    "precision": 0.503765690376569,
+    "recall": 0.6050251256281407,
+    "f1_binary": 0.5497716894977169,
+    "f1_macro": 0.7024923058354957,
+    "f1_weighted": 0.7876764718372347,
+    "threshold": 0.247743,
+    "tp": 602,
+    "fp": 593,
+    "tn": 2912,
+    "fn": 393
+  },
+  "hyperparameters": {
+    "iterations": 250,
+    "depth": 6,
+    "learning_rate": 0.05,
+    "l2_leaf_reg": 5.0,
+    "random_strength": 1.0,
+    "bagging_temperature": 1.0
+  },
+  "feature_order": {
+    "raw_semantic_columns": {
+      "X1": "LIMIT_BAL",
+      "X2": "SEX",
+      "X3": "EDUCATION",
+      "X4": "MARRIAGE",
+      "X5": "AGE",
+      "X6": "PAY_0",
+      "X7": "PAY_2",
+      "X8": "PAY_3",
+      "X9": "PAY_4",
+      "X10": "PAY_5",
+      "X11": "PAY_6",
+      "X12": "BILL_AMT1",
+      "X13": "BILL_AMT2",
+      "X14": "BILL_AMT3",
+      "X15": "BILL_AMT4",
+      "X16": "BILL_AMT5",
+      "X17": "BILL_AMT6",
+      "X18": "PAY_AMT1",
+      "X19": "PAY_AMT2",
+      "X20": "PAY_AMT3",
+      "X21": "PAY_AMT4",
+      "X22": "PAY_AMT5",
+      "X23": "PAY_AMT6"
+    },
+    "raw_categorical_columns": [
+      "X2",
+      "X3",
+      "X4"
+    ],
+    "round1_engineered_columns": [
+      "count_pay_delay_gt0",
+      "max_pay_delay",
+      "recent_pay_delay",
+      "mean_pay_delay",
+      "pay_delay_trend",
+      "avg_bill_amt",
+      "max_bill_amt",
+      "min_bill_amt",
+      "bill_std",
+      "bill_growth",
+      "avg_pay_amt",
+      "max_pay_amt",
+      "pay_std",
+      "pay_to_bill_ratio",
+      "utilization_proxy"
+    ],
+    "behavioral_groups": [
+      "round1",
+      "bill",
+      "payment"
+    ]
+  },
+  "preprocessing": {
+    "fit_scope": "TRAIN only",
+    "numeric": [
+      "median_imputer",
+      "standard_scaler"
+    ],
+    "categorical": [
+      "most_frequent_imputer",
+      "one_hot_encoder"
+    ],
+    "unknown_categories": "ignore"
+  },
+  "seed": 42,
+  "split_manifest": "artifacts/experiments/round4_split_manifest.json",
+  "test_access": "none",
+  "required_precision_at_observed_recall_for_f1_065": 0.6955486998677832,
+  "methodology_version": "A1_MACRO_F1",
+  "official_f1_metric": "macro_f1",
+  "official_f1_value": 0.7024923058354957,
+  "binary_f1_default_1": 0.5497716894977169,
+  "macro_f1": 0.7024923058354957,
+  "weighted_f1": 0.7876764718372347,
+  "a1_gates": {
+    "auc": true,
+    "recall_default_1": true,
+    "macro_f1": true
+  },
+  "all_a1_gates_pass": true,
+  "selection_reason": "Highest Macro F1 among existing candidates satisfying AUC and Recall gates.",
+  "previous_methodology": "binary_f1_as_gate",
+  "methodology_correction_applied": true,
+  "previous_development_winner": {
+    "model": "XGBoostClassifier",
+    "feature_set": "ROUND1+BILL+PAYMENT",
+    "binary_f1": 0.5500679656050955,
+    "macro_f1": 0.7019440372110601
+  },
+  "methodological_development_winner": {
+    "model": "CatBoostClassifier",
+    "round": "R4",
+    "feature_set": "A3",
+    "threshold": 0.247743
+  }
+}

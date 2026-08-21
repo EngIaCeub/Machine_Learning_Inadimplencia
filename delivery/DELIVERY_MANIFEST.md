@@ -25,7 +25,7 @@ Status: `FINAL_ACADEMIC_DELIVERY_READY`
 - Post-test tuning: `NO`.
 - Nenhum novo experimento foi executado na preparacao desta entrega.
 - Data de preparacao: `2026-08-21`.
-- Colab publication link: `https://colab.research.google.com/drive/1_Jgx1HXY3wPmAU8GJB8B347WKp0kumSV`.
+- Colab publication link: `https://colab.research.google.com/drive/1_Jgx1HXY3wPmAU8GJB8B347WKp0kumSV?usp=sharing`.
 
 ## Identificacao
 

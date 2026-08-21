@@ -19,7 +19,7 @@
 2. Select a CPU runtime and choose **Runtime > Run all**.
 3. Save the executed notebook after confirming the reproducibility table.
 
-`REPO_URL` is preconfigured as `https://github.com/EngIaCeub/Machine_Learning_Inadimplencia.git`. The Colab publication URL is `https://colab.research.google.com/drive/1_Jgx1HXY3wPmAU8GJB8B347WKp0kumSV`. No manual upload, personal Drive, Windows path, credential, or GPU is required.
+`REPO_URL` is preconfigured as `https://github.com/EngIaCeub/Machine_Learning_Inadimplencia.git`. The Colab publication URL is `https://colab.research.google.com/drive/1_Jgx1HXY3wPmAU8GJB8B347WKp0kumSV?usp=sharing`. No manual upload, personal Drive, Windows path, credential, or GPU is required.
 
 ## Dependencies
 

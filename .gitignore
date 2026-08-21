@@ -13,6 +13,7 @@ artifacts/*
 !artifacts/.gitkeep
 !artifacts/final/
 !artifacts/final/**
+!artifacts/experiments/
 artifacts/experiments/*
 !artifacts/experiments/round4_split_manifest.json
 .DS_Store
